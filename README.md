@@ -1,10 +1,8 @@
 # fastboot-duplicates-headers-issue
 
-## This repo was created to demonstrate the next issue of the fastboot-app-server
+## This repo was created to demonstrate the issue of the fastboot-app-server package:
 
-## package:
-
-> All headers set in the beforeMiddleware hook will be duplicated in fastboot response.
+> All response headers which were set in the beforeMiddleware hook will be duplicated in the fastboot response.
 
 ![Issue Screenshot](/assets/images/issue-screenshot.png)
 
