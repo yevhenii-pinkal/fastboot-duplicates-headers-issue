@@ -1,0 +1,16 @@
+{
+  "name": "fastboot-duplicates-headers-issue",
+  "version": "0.0.1",
+  "description": "Demo project to show the Fastboot issue. Fastboot duplicates all headers which were set in beforeMiddleware hook (before execution of fastboot-middleware).",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node server.js",
+    "build": "npm i && cd ember-app && npm i && ember build --environment production && cd dist && npm i && cd ../..",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yevhenii Pinkal",
+  "license": "ISC",
+  "dependencies": {
+    "fastboot-app-server": "^3.0.0"
+  }
+}
